@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Title of the Initiative </title>
+    <style>
+      h1{
+        font-size = 80 px; 
+        font-family = Roboto; 
+        font-weight = normal;
+        color: rgb(0, 200, 0);
+        text-align: center; 
+      #banner {}
+      }
+    </style>
+  </head>
+  .bodytext {
+    font-family = Roboto;
+    color: rgb(80, 80, 80);
+  text-align: right;
+  }
+  <body>
+    <h1>
+      {{company_name}} test head
+    </h1>
+      <img id="banner" src = "https://05-24-23.dkg163.repl.co/static/p1.jpg" height='320'>
+ 
+    <h2>
+      About Our Initiative
+    </h2>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </p>
+    <h2>
+    Open Position
+    </h2>
+    <div>
+    
+    {% for job in jobs %}
+      {% include 'jobitem.html'%}
+      
+    {% endfor %}</h4>
+   
+    </div>
+
+    
+    <p class="bodytext"> Todo - show the job here</p>
+    
+    <p>
+    {{jobs}}}
+    </p>
+    <button>
+      Contact Us
+    </button>
+    <p>
+      copy rights 2022
+    </p>
+  </body>
+</html>
