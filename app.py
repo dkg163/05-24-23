@@ -17,8 +17,8 @@ JOBS = [
   {
     'id': 3,
     'title': 'data analyst 3',
-    'location': 'OAK',
-    'salary': '120,000'
+    'location': 'Austin, TX',
+    'salary': '150,000'
   },
 ]
 
